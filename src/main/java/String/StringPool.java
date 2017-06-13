@@ -57,7 +57,7 @@ public class StringPool {
         String s = "ss1";
         String ss = "ss";
         String ss1 = ss.concat("1");
-        System.out.println("s == ss1 :" + (s == ss1));
+        System.out.println("s == ss1 :" + (s == ss1));//false
 
     }
 }
